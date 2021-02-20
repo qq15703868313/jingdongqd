@@ -11,7 +11,7 @@ on:
 jobs:
   repo-sync:
     env:
-      PAT: ${{ secrets.PAT || github.event.client_payload.PAT }} 
+      PAT: ${{a7422d85268cb1d8ecee7bbdf0d960dedd20e421 }} 
       #此处PAT需要申请，教程详见：https://www.jianshu.com/p/bb82b3ad1d11
       #https://github.com/iplcdn/auto_repo-sync/blob/master/reposync.md
     runs-on: ubuntu-latest
